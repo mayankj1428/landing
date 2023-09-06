@@ -1,0 +1,66 @@
+.bgimage{
+    z-index:-1;
+    opacity: 0.5;
+}
+/* body{
+    background-image: linear-gradient(135deg, orange,white,green);
+} */
+.heading{
+    font-family: 'Poppins', sans-serif;
+}
+.listitems{
+    font-family: 'Poppins', sans-serif;
+}
+.para1{
+    font-family: 'Roboto', sans-serif;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.demo{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+/* @media screen and (max-width:1368) {
+    .bgimg{
+        background-size: cover;
+    }
+} */
+@media screen and (max-width:1075px){
+    .cards{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:900px){
+    .container1{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:400px){
+    .menu{
+        display: flex;
+    }
+    .navlist{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .hamburger{
+        display: block;   
+        position: absolute;
+        right: 14px;
+        top:12px
+    }
+    .left{
+        position: absolute;
+        left: 14px;
+        top:10px
+    }
+}
